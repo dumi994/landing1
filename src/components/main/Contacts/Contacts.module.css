@@ -1,0 +1,21 @@
+/* .infoForm input{
+    border:none !important;
+    border-radius: 0 !important;
+    border-bottom:3px solid white !important;
+    background-color: transparent !important;
+} */
+textarea, .infoForm input{
+    border:none !important;
+    border-radius: 0 !important;
+    border-bottom:3px solid white !important;
+    background-color: transparent !important;
+    color:white !important;
+}
+.infoForm ::placeholder{
+    color:#F0AD0D;
+}
+.contacts{
+    background-image: url(../../../assets/img/imgForm.jpg);
+    background-size: cover;
+    background-position: center;
+}

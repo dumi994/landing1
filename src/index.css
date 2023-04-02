@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  line-height: 30px;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container{
+  padding-top:20px;
+  padding-bottom:20px;
+  width:80%;
+  margin:auto;
+}

@@ -1,0 +1,28 @@
+.cta{
+    background-color: #F0AD0D;
+    padding:30px 0;
+}
+.cbutton{
+    background-color:#1A1A1A;
+    width: 100% !important;
+    height: 50px; 
+    font-size: 14px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    /* float:left; */
+    transition:color 0.3s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+}
+.cbutton:hover{
+    color:#F0AD0D
+}

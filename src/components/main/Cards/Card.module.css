@@ -1,0 +1,19 @@
+
+.iconContainer{
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    padding:10px;
+    background-color: #F0AD0D;
+}
+.iconContainer i{
+    font-size: 30px;
+}
+/* .card:nth-child(even){
+    background-image: none;
+    background-color: #F0AD0D !important;
+    
+} */
+.card ul{
+    margin-top: 40px;
+}
