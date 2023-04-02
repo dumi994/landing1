@@ -13,9 +13,17 @@ textarea, .infoForm input{
 }
 .infoForm ::placeholder{
     color:#F0AD0D;
+    font-weight: 600;
 }
 .contacts{
     background-image: url(../../../assets/img/imgForm.jpg);
     background-size: cover;
     background-position: center;
+}
+textarea:focus, .form-control:focus, .infoForm input:focus  {
+    color: #F0AD0D;
+    background-color: none;
+    border-color: #F0AD0D !important;
+    outline: 0;
+    box-shadow: none !important;
 }

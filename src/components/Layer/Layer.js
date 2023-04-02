@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Layer.module.css"
 const Layer = (props) => {
   return (
-    <div className={`${styles.layer} mt-5 mb-5`}>
+    <div className={`${styles.layer} p-4`}>
         {props.children}
     </div>  
   )
