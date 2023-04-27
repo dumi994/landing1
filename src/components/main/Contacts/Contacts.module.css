@@ -27,3 +27,22 @@ textarea:focus, .form-control:focus, .infoForm input:focus  {
     outline: 0;
     box-shadow: none !important;
 }
+.info{
+    font-size: 18px;
+}
+.info i{
+    color:#F0AD0D;
+}
+.info a{
+    color:#fff;
+    text-decoration: none;
+}
+ 
+@media only screen and (max-width: 768px)  {
+    .orari .primoDiv{
+        margin:30px 0;
+    }
+    .orari{
+        text-align:center;
+    }
+}

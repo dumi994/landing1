@@ -1,0 +1,86 @@
+.sidebar {
+  display: block;
+  height: 100%; /* Altezza massima a schermo intero */
+  width: 160px; /* Larghezza della barra laterale */
+  position: fixed; /* Fissare la barra laterale */
+  z-index: 1; /* Posizionare la barra laterale sopra il contenuto */
+  top: 0; /* Allineamento in alto */
+  right: 0; /* Allineamento dex */
+  background-color: #222222d5; /* Colore di sfondo */
+  overflow-x: hidden; /* Nascondere il contenuto che va oltre la barra laterale */
+  padding-top: 20px; /* Spazio extra in cima alla barra laterale */
+  z-index: 1000;
+}
+  
+.sidebar a, .deskMenu a {
+  display: flex; /* Converte il link in un blocco */
+  color: #f1f1f1; /* Colorazione del testo */
+  padding: 16px; /* Aggiungere spazio intorno ai link */
+  text-decoration: none; /* Rimuovere la sottolineatura dei link */
+  
+}
+
+.sidebar a:hover{
+  background-color: #F0AD0D;
+
+ /*  background-color: #ddd; /* Cambia il colore di sfondo del link al passaggio del mouse */ 
+  color: black; /* Cambia il colore del testo del link al passaggio del mouse */
+}
+.menuIcon{
+  padding:5px 10px;
+  background-color: #80808082;
+  color:#F0AD0D;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 10010;
+}
+ 
+.deskMenu {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 80px; /* Altezza massima a schermo intero */
+  width: 100%; /* Larghezza della barra laterale */
+  position: fixed; /* Fissare la barra laterale */
+  align-items: center;
+  top: 0; /* Allineamento in alto */
+  right: 0; /* Allineamento dex */
+  background-color: #222222d5; /* Colore di sfondo */
+  overflow-x: hidden; /* Nascondere il contenuto che va oltre la barra laterale */
+  /* Spazio extra in cima alla barra laterale */
+  z-index: 1000;
+}
+
+.deskMenu a {
+  width:120px;
+  justify-content: center;
+  display: flex; 
+  color: #f1f1f1; 
+  padding: 16px;
+  text-decoration: none; 
+  
+}
+.deskMenu a:hover {
+  border-bottom: 3px solid #F0AD0D;
+  margin-top:5px;
+}
+
+.jumbotronH{
+  margin-top:80px;
+}
+.jumboImgContainer{
+  background-size:cover ;
+  height:550px;
+  width:100%;
+  
+}
+/* @media screen and (max-width: 768px) {
+  .jumboImgContainer{
+ 
+
+   
+  }
+
+}
+ */

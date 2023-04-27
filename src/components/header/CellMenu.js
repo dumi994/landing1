@@ -1,33 +1,29 @@
 import React, {useState, useEffect, useRef} from 'react'
 import useOutsideClick from './useOutsideClick';
-import Slideshow from '../Slideshow'
-import CellMenu from './CellMenu'
-import Jumbotron from './Jumbotron'
+import styles from "./Menu.module.css"
 import DeskMenu from './DeskMenu';
-import BackToTopArrow from '../BackToTop/BackToTopArrow';
-
 const menuData = [
-  {
-      url: "#",
-      name: "Home"
-  },
-  {
-      url: "#about",
-      name: "Chi Siamo"
-  },
-  {
-      url: "#servizi",
-      name: "Servizi"
-  },
-  {
-      url: "#contacts",
-      name: "Contatti"
-  },
+    {
+        url: "#",
+        name: "Home"
+    },
+    {
+        url: "#about",
+        name: "Chi Siamo"
+    },
+    {
+        url: "#servizi",
+        name: "Servizi"
+    },
+    {
+        url: "#contacts",
+        name: "Contatti"
+    },
 ]
 const openIcon = "fa-solid fa-bars"
 const closeIcon = "fa-sharp fa-solid fa-x"
-const Header = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+const CellMenu = (props) => {
+	const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 	useEffect(() => {
     // Funzione di callback che si attiva quando la larghezza dello schermo cambia
     const handleResize = () => {
@@ -53,13 +49,26 @@ const Header = () => {
   useOutsideClick(menuRef, () => {
     setToggle(false);
   });
+	/*/ toggle menu */
   return (
-    <>
-      {screenWidth < 900 ? <CellMenu /> : <DeskMenu /> }
-      {/* <Slideshow/> */}
-     { <Jumbotron />}
-    </>
+    <div ref={menuRef} >
+			<div className={styles.menuIcon} style={{  marginLeft:"50% " }} onClick={() =>clMenu(!toggle)}>
+					<i className={`${toggle ? closeIcon : openIcon}`}></i>
+			</div> 
+			{
+			toggle && 
+				<div className={styles.sidebar} >
+					<div className={`${styles.menu} mt-5`}>
+					{
+						menuData.map((item, i) => (
+							<a key={i} href={item.url} onClick={() =>clMenu(!toggle)}>{item.name}</a>
+						))
+					}
+					</div> 
+				</div> 
+			}
+    </div>
   )
 }
 
-export default Header
+export default CellMenu

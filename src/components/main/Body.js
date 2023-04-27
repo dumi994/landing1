@@ -6,6 +6,8 @@ import Servizi from './Servizi/Servizi'
 import Philosphy from './Philosophy/Philosphy'
 import Team from './Team/Team'
 import Contacts from './Contacts/Contacts'
+import Footer from '../Footer'
+import BackToTopArrow from '../BackToTop/BackToTopArrow'
 const Body = () => {
   return (
     <div className={styles.body}>
@@ -15,6 +17,8 @@ const Body = () => {
         <Philosphy></Philosphy>
         <Team></Team>
         <Contacts></Contacts>
+        <Footer></Footer>
+        <BackToTopArrow></BackToTopArrow>
     </div>
   )
 }

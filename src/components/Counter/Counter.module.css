@@ -1,0 +1,18 @@
+.counter{
+  /* width:150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red; */
+  padding:40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#F0AD0D
+ 
+}
+.counter p{
+  font-size:70px;
+  padding:20px;
+}

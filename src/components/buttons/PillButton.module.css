@@ -1,3 +1,5 @@
+/* HEADER BUTTON */
+
 .hbutton{
     background-color:#F0AD0D;
     /* background-color: #ddd; */
@@ -17,7 +19,73 @@
     color:white;
     font-weight: 600;
 }
-.hbutton:hover{
+.hbutton:hover, .fbutton:hover{
     background-color:#d4a22d;
    /*  background-color: red; */
 }
+
+/* CALL TO ACTION BUTTON */
+.cbutton{
+    background-color:#1A1A1A;
+    width: 100% !important;
+    height: 50px; 
+    font-size: 14px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    /* float:left; */
+    transition:color 0.3s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+}
+.cbutton:hover{
+    color:#F0AD0D
+}
+
+/* FOOTER BUTTON */
+.fbuttonCont{
+    width:80%;
+  
+}
+.fbutton{
+    background-color:#F0AD0D;
+    
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width:100% !important;
+    margin:auto;
+    transition: background-color 0.3s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+}
+@media screen and (max-width: 545px) {
+    .fbutton{
+        font-size:12px;
+    }
+    .fbuttonCont{
+        width:100%;
+         
+    }
+}
+  
+.fbutton i {
+    color:#fff !important;
+}
+ 

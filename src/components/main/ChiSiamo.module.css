@@ -8,3 +8,25 @@
     margin-bottom:30px;
 }
  */
+.cardHeight{
+    height: 400px;
+}
+.layer{
+    width:100%;
+    height: 100% !important;
+    background-color:#0000004a ;
+    padding-top:50px;
+    padding-bottom:50px;
+   
+}
+
+@media screen and (max-width:1460px) and (min-width: 1200px) {
+    .cardHeight{
+        height: 500px;
+    }
+}
+@media screen and (max-width:1000px) and (min-width: 769px) {
+    .cardHeight{
+        height: 490px;
+    }
+}
