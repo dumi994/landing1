@@ -4,10 +4,10 @@
   bottom:30px;
   right:30px;
 }
-.toTopArrow a{
+.toTopArrow span{
   border-radius: 50%;
   
   padding:15px;
   color:#F0AD0D;
-  background-color:#000000bf;
+  background-color:#0000008a;
 }

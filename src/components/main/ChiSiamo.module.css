@@ -9,7 +9,8 @@
 }
  */
 .cardHeight{
-    height: 400px;
+    /* height: 400px; */
+   /*  font-size: 14px; */
 }
 .layer{
     width:100%;
@@ -19,7 +20,11 @@
     padding-bottom:50px;
    
 }
-
+@media screen and (min-width:1461px)  {
+    .cardHeight{
+        height: 400px;
+    }
+}
 @media screen and (max-width:1460px) and (min-width: 1200px) {
     .cardHeight{
         height: 500px;

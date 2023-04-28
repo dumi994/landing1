@@ -6,6 +6,7 @@ import Card from './Cards/Card'
 /*Backgrounds*/
 import card1Bg from "../../assets/img/avvocati.jpg"
 import card3Bg from "../../assets/img/avvocato.jpg"
+
 import Layer from "../Layer/Layer"
 /* Icons */
 const counter = 1

@@ -12,7 +12,7 @@ const Info = () => {
                 <div className={`${styles.primoDiv} my-4`}>
                     <h4><i class="fa-solid fa-clock"></i> Orari di apertura</h4>
                     <div className='row d-flex alig-items-center my-4'>
-                        <div className='col-5 d-flex align-self-center'>
+                        <div className='col-5 m-auto'>
                             Lun-Ven:
                         </div>
                         <div className='col-7 '>
@@ -46,7 +46,7 @@ const Info = () => {
                 <div className={`${styles.primoDiv} my-4`}>
                     <h4><i class="fa-solid fa-clock"></i> Orari di apertura</h4>
                     <div className='row d-flex alig-items-center my-4'>
-                        <div className='col-5 d-flex align-self-center'>
+                        <div className='col-5 m-auto'>
                             Lun-Ven:
                         </div>
                         <div className='col-7 '>
