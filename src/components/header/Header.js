@@ -24,8 +24,8 @@ const menuData = [
       name: "Contatti"
   },
 ]
-const openIcon = "fa-solid fa-bars"
-const closeIcon = "fa-sharp fa-solid fa-x"
+/* const openIcon = "fa-solid fa-bars"
+const closeIcon = "fa-sharp fa-solid fa-x" */
 const Header = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 	useEffect(() => {

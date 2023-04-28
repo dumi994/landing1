@@ -25,7 +25,7 @@ function BackToTopArrow() {
 
     <div  style={{ display: showButton ? 'block' : 'none' }} onClick={handleClick} className={`${styles.toTopArrow}`}>
        <span>
-        <i class="fa-solid fa-chevron-up"></i> 
+        <i className="fa-solid fa-chevron-up"></i> 
        </span>
     </div>
   );
@@ -38,7 +38,7 @@ import styles from "./ToTopArrow.module.css"
 const BackToTopArrow = () => {
   return (
     <div className={`${styles.toTopArrow}`}>
-      <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+      <a href="#"><i className="fa-solid fa-chevron-up"></i></a>
     </div>
   )
 }

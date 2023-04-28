@@ -28,7 +28,7 @@ const Philosphy = () => {
               philisophy.map((el, i)=>{ 
                 return (
                 <div className={`${styles.phylosphyCard} col-12 my-5 `} key={i}>
-                  <h2><i class="fa-sharp fa-solid fa-quote-left"></i><br></br>{el.txt}</h2>
+                  <h2><i className="fa-sharp fa-solid fa-quote-left"></i><br></br>{el.txt}</h2>
                   <h5><strong>{el.title}</strong></h5>
                 </div>)
               })

@@ -7,10 +7,10 @@ const Info = () => {
         <div className=' row'>
             {/* ORARI GROSSETO */}
             <div className={`${styles.orari} col-md-6 col-sm-12`}>
-                <h4> <i class="fa-solid fa-location-dot"></i> GROSSETO</h4>
+                <h4> <i className="fa-solid fa-location-dot"></i> GROSSETO</h4>
                 <p>Via Lorem Ipsum 12</p>
                 <div className={`${styles.primoDiv} my-4`}>
-                    <h4><i class="fa-solid fa-clock"></i> Orari di apertura</h4>
+                    <h4><i className="fa-solid fa-clock"></i> Orari di apertura</h4>
                     <div className='row d-flex alig-items-center my-4'>
                         <div className='col-5 m-auto'>
                             Lun-Ven:
@@ -41,10 +41,10 @@ const Info = () => {
             </div>    
             {/* ORARI FIRENZE */}
             <div className={`${styles.orari} col-md-6 col-sm-12`}>
-                <h4> <i class="fa-solid fa-location-dot"></i> FIRENZE</h4>
+                <h4> <i className="fa-solid fa-location-dot"></i> FIRENZE</h4>
                 <p>Via Lorem Ipsum 12</p>
                 <div className={`${styles.primoDiv} my-4`}>
-                    <h4><i class="fa-solid fa-clock"></i> Orari di apertura</h4>
+                    <h4><i className="fa-solid fa-clock"></i> Orari di apertura</h4>
                     <div className='row d-flex alig-items-center my-4'>
                         <div className='col-5 m-auto'>
                             Lun-Ven:
@@ -84,10 +84,10 @@ export default Info
   {/* ORARI GROSSETO */}
 /*   <div className={`${styles.orari} col-md-6 col-sm-12`}>
    
-  <h4> <i class="fa-solid fa-location-dot"></i> Grosseto</h4>
+  <h4> <i className="fa-solid fa-location-dot"></i> Grosseto</h4>
   <p>Via Lorem Ipsum 12</p>
   <div className={`${styles.primoDiv}`}>
-      <h4><i class="fa-solid fa-clock"></i> Orari di apertura</h4>
+      <h4><i className="fa-solid fa-clock"></i> Orari di apertura</h4>
       <div>
           <p>Lun-Ven 8:00 12:00 | 15:00 - 18:00</p>
           <p>Sab 8:00 12:00</p>
